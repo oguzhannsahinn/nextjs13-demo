@@ -1,3 +1,5 @@
+import { redirect } from "next/navigation";
+
 export async function GET() {
-  return new Response('list page');
+  redirect('http://localhost:3000/list');
 }
