@@ -1,7 +1,3 @@
-import React from 'react';
-
-const parallelPage = () => {
+export default function parallelPage() {
   return <h3>Parallel Page</h3>;
-};
-
-export default parallelPage;
+}

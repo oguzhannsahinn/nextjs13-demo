@@ -31,6 +31,18 @@
   font-size: 24px;
 }
 
+.reportsWrapper {
+
+  background-color: rgb(113, 216, 122);
+  border-radius: 8px;
+  border: 1px solid #000;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
 .page {
   flex: 1;
 }
