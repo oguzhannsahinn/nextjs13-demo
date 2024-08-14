@@ -3,9 +3,8 @@ import Link from 'next/link';
 import './globals.css';
 
 export const metadata = {
-  title: 'NextGram',
-  description:
-    'A sample Next.js app showing dynamic routing with modals as a route.',
+  title: 'Next 13 Demo App',
+  description: 'A sample Next 13 Demo App',
 };
 
 export default function RootLayout({ children }) {

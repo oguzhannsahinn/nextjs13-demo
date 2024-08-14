@@ -1,3 +1,8 @@
 export default function PostPage({ params }) {
-  return <div>Post: {params.post}</div>;
+  return (
+    <>
+      <h3>Optional Catch-all routes</h3>
+      <div>Post: {params.post}</div>
+    </>
+  );
 }
